@@ -1,0 +1,32 @@
+/*GLOBAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container{
+    width: 100%; /*for responsiveness*/
+    margin: auto; /*set container to center*/
+    overflow: hidden;/*scroll bar is hidden if outside the div*/
+}
+
+body{
+	font-family:"Lucida Console", Arial, serif;
+}
+/* HEADER */
+.header{
+	padding-top: 300px;
+}
+h1#tagline{
+	font-size:  220%;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #324065;
+	text-align: center;
+	text-height
+}
+
+img#cityscape{
+	width:100%;
+	overflow: hidden;
+}
