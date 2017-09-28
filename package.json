@@ -1,10 +1,10 @@
 {
   "name": "acwebsite",
   "version": "1.0.0",
-  "description": "",
+  "description": "AutoConscience website for AC App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/Wareen022/AC#readme",
   "dependencies": {
-    "express": "^4.15.5"
-  }
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.5",
+    "express-session": "^1.15.6",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {}
 }
