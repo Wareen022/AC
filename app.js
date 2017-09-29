@@ -5,9 +5,13 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var sessions = require('express-session');
+var azureDeploy = require('azure-deploy');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+
+var sourceFolder = 'AC website';
+
 
 var app = express();
 var session;

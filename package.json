@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Wareen022/AC#readme",
   "dependencies": {
+    "azure-deploy": "^0.5.4",
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.15.5",
