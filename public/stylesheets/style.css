@@ -1,5 +1,24 @@
 /*GLOBAL*/
-
+@font-face {
+	font-family: "akrobat";
+	src: url("/fonts/Akrobat-Black.otf") format("otf"),
+		 url("/fonts/Akrobat-Bold.otf") format("otf"),
+		 url("/fonts/Akrobat-ExtraBlack.otf") format("otf"),
+		 url("/fonts/Akrobat-ExtraLight.otf") format("otf"),
+		 url("/fonts/Akrobat-Regular.otf") format("otf"),
+		 url("/fonts/Akrobat-SemiBold.otf") format("otf"),
+		 url("/fonts/Akrobat-Thin.otf") format("otf");
+}
+@font-face {
+	font-family: "offerings";
+	src: url("/fonts/Offerings Regular-Italic.otf") format("otf"),
+		 url("/fonts/Offerings Regular.otf") format("otf");
+}
+@font-face {
+	font-family: "Pasajero";
+	src: url("/fonts/Pasajero.otf") format("otf");
+}  
+ 
 * {
   margin: 0;
   padding: 0;
@@ -11,13 +30,14 @@
 }
 
 body{
-	font-family:"Lucida Console", Arial, serif;
+	font-family:"Pasajero","offerings", "akrobat" ;
 }
 /* HEADER */
 .header{
 	padding-top: 300px;
 }
 h1#tagline{
+	font-family: "Pasajero";
 	font-size:  220%;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -28,5 +48,5 @@ h1#tagline{
 
 img#cityscape{
 	width:100%;
-	overflow: hidden;
+	overflow:hidden;
 }
